@@ -1,0 +1,81 @@
+{
+    "short_name": "RickyEspino",
+    "name": "Ricky Espino",
+    "icons": [
+      {
+        "src": "pwa/icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "pwa/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "pwa/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "pwa/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "pwa/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "pwa/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/?utm_source=homescreen",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#000000",
+    "description": "My life in the cloud",
+    "orientation": "portrait-primary",
+    "lang": "en-US",
+    "dir": "ltr",
+    "serviceworker": {
+      "src": "sw.js",
+      "scope": "/",
+      "update_via_cache": "none"
+    },
+    "screenshots": [
+      {
+        "src": "pwa/screenshot1.png",
+        "sizes": "640x480",
+        "type": "image/png"
+      },
+      {
+        "src": "pwa/screenshot2.png",
+        "sizes": "640x480",
+        "type": "image/png",
+        "form_factor": "wide"
+      }
+    ],
+    "categories": ["personal", "web development"],
+    "shortcuts": [
+      {
+        "name": "Open Recent",
+        "short_name": "Recent",
+        "description": "View recently viewed items",
+        "url": "/recent?utm_source=homescreen",
+        "icons": [{ "src": "pwa/icon-192x192.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "New Message",
+        "short_name": "Message",
+        "description": "Create a new message",
+        "url": "/create-message?utm_source=homescreen",
+        "icons": [{ "src": "pwa/icon-192x192.png", "sizes": "192x192" }]
+      }
+    ]
+  }
+  
